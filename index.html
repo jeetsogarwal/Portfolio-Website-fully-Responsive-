@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="Website Icon" type="jpeg" href="images/icon.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jeet's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4682852ff6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header" class="header">
+      <div class="container">
+        <nav>
+          <img src="images/re.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header"> Home </a></li>
+            <li><a href="#about"> About </a></li>
+            <li><a href="#services"> Services </a></li>
+            <li><a href="#portfolio"> Portfolio </a></li>
+            <li><a href="#contact"> Contact </a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Developer</p>
+          <h1>Hi, I'm <span>Jeet Sogarwal </span><br />From India</h1>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/jeet_sogarwal_"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.twitter.com/jeet_sogarwal_"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/jeet-sogarwal-19b76421b/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/jeetsogarwal"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-colm-1">
+            <img src="images/tie.jpg" />
+          </div>
+          <div class="about-colm-2">
+            <h1>About Me :</h1>
+            <p>
+              - I'm Jeet, a front-end developer with a passion for creating
+              user-friendly and visually stunning websites. I excel in HTML,
+              CSS, and JavaScript, and I see myself as more than just a coder;
+              I'm an artist who turns web design concepts into functional works
+              of art. My journey has taken me through roles at Bharat Intern and
+              CodeSoft, where I've had the privilege of collaborating on
+              numerous intriguing projects. These experiences have allowed me to
+              refine my skills and contribute to the development of innovative
+              web solutions.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-links" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web-Development</span><br />- Web App Development</li>
+                <li></li>
+                <li>
+                  <span>UI/UX</span><br />
+                  - Designing Web/App Interfaces
+                </li>
+                <li>
+                  <span>App-Development</span><br />- Building Android/IOS Apps
+                </li>
+                <li>
+                  <span>Java Programming</span><br />- Building Applications
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023-Oct </span><br />- Web-Developer At Bharat-Intern
+                </li>
+                <li></li>
+                <li>
+                  <span>2023-Nov</span><br />
+                  - Java Programmer At CodeSoft
+                </li>
+                <li>
+                  <span>2023 June-July</span><br />- Chandigarh University
+                  Summer Training
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2021-2025</span><br />- Betch Computer Science -
+                  Chandigarh University ( 8.0 CGPA)
+                </li>
+                <li></li>
+                <li>
+                  <span>2021</span><br />
+                  - Senior Secondary(XII) , Science - K.v Bharatpur (92%)
+                </li>
+                <li>
+                  <span>2019</span><br />- Secondary(X) - K.v Bharatpur (94%)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -------Services------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Elevate your online presence with our expert web design service.
+              We create custom, mobile-responsive websites that captivate
+              visitors, improve user experience, and boost search engine
+              visibility. Trust us to craft a visually appealing, functional,
+              and user-friendly site that aligns perfectly with your brand.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>
+              Our UI/UX design service focuses on delivering exceptional user
+              experiences. We craft intuitive and visually appealing interfaces
+              that enhance user engagement and satisfaction. Whether you need
+              web or app design, our experts ensure your digital products are
+              both beautiful and user-friendly.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p>
+              Our app design service specializes in creating visually stunning
+              and user-friendly mobile and web applications. We combine
+              aesthetic appeal with intuitive interfaces to ensure your app
+              stands out in a crowded digital marketplace. Elevate your user
+              experience and engage your audience with our professional app
+              design solutions.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------Portfolio------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/free.jpeg" />
+            <div class="layer">
+              <h3>FreeFlix-Unleash Your Entertainment</h3>
+              <p>A Compititive platform of netfllix and amazon prime</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/os.webp" />
+            <div class="layer">
+              <h3>Buy Me</h3>
+              <p>A Compititive platform of Amazon and Flipkart</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/sms.png" />
+            <div class="layer">
+              <h3>School Managment system</h3>
+              <p>
+                A platform for all school or colleges to maintain their records
+              </p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More!</a>
+      </div>
+    </div>
+
+    <!-- -------Contact----- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-paper-plane"></i>jeetsogarwal10@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone-volume"></i>9509755921</p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/jeet_sogarwal_"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.twitter.com/jeet_sogarwal_"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/jeet-sogarwal-19b76421b/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/jeetsogarwal"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="images/Jeet-CV.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <h2>Feedback Form</h2>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn3">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
